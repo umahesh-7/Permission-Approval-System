@@ -1,0 +1,41 @@
+
+<html>
+        <head>
+        <title>Form</title>
+         
+        </head>
+       
+        <body bgcolor="aquamarine">
+            <form method="post" action="checkleaderlogin.jsp" >
+                <table align="center" style="height:150px;background-color:'aquamarine'">
+                    <tr>
+                        <th colspan="2">
+                          <h2>Leader Login Form</h2>
+                          </th>
+                        
+                    </tr>
+                    <tr>
+                        <td> UserName</td>
+                        <td><input type="text" placeholder="enter username"  name="uname" onmouseover="validateuname()">
+                          <span id="err1"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Password</td>
+                        <td><input type="password" placeholder="enter password" name="pwd" onmouseover="validatepwd()">
+                          <span id="err2"></span>
+                        </td>
+                    </tr>
+                    
+               <tr>
+                        <td align="center"><input type="submit" value="Submit"></td>
+                        <td align="center"><input type="reset" value="Clear"></td>
+                    </tr>
+         
+                
+                </table>
+          </form>
+    
+            
+        </body>
+        </html>

@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <title>
+            permission approval system
+        </title>
+        <style>
+            .topnav {
+  overflow:auto;
+  background-color:rgb(17, 12, 1);
+  padding: 15px 50px;
+  border: #f2f2f2 1px solid;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1px 1px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:mediumaquamarine;
+  color: rgb(255, 255, 255);
+  /* float:right; */
+}
+.topnav button {
+    padding: 1px 1px;
+    font-size: 30px;
+}
+.image img {
+    border: #f2f2f2 2px solid;
+    height: 495px;
+    width: 100%;
+    /* border: #f2f2f2 2px solid;
+    height: 550px;
+    width: 100%; */
+}
+.drop{
+    border: black 3px solid;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+.drop button {
+    padding: 1px 1px;
+    font-size: 30px;
+    background-color:mediumaquamarine;
+  color: rgb(255, 255, 255);
+  
+}
+
+.topnav-centered {
+  float: none;
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.topnav-right {
+    float: right;
+}
+
+/* login form starts */
+
+        </style>
+        <script>
+        function display()
+        {
+            window.open("goals.html");
+        }
+        // function display1()
+        // {
+        //     window.open("log.html");
+        //     // document.getElementById('login').style.display='block';
+        // }
+        // function display2()
+        // {
+        //     window.open("sign.html");
+        function display3()
+        {
+            window.open("contact.html");
+        }
+        function EmployeeLogin()
+        {
+            window.open("Elogin.html");
+        }
+        function EmployeeReg()
+        {
+            window.open("pa.html");
+        }
+        function Manager()
+        {
+            window.open("mlogin.html");
+        }
+        function Leader()
+        {
+            window.open("llogin.html");
+        }
+        </script>
+    </head>
+    <body>
+            <div class="topnav">
+                    <button type="button" onclick="display()"><a class="active">Home</a></button>
+                    <!-- <h3 style="color: white;">permission approval system</h3> -->
+                    <!-- <button type="button" onclick="display3()"><a class="active">Contact Us</a></button> -->
+                    <!-- <button type="button" onclick="display2()" style="width:auto;float: right"><a class="active">Signin</a></button>
+                    
+                    <button type="button" onclick="display1()" style="width:auto;float: right"><a class="active">Login</a></button> -->
+                     <div class="topnav-centered">
+                            <h1 style="color: white;"> Permission Approval System </h1>
+                     </div>
+                     <div class="topnav-right">
+                            <button type="button" onclick="display3()"><a class="active">Contact Us</a></button>
+                     </div>
+                    </div>
+                    <div class="image">
+                        <img src="approval.jpg">
+                    </div>
+                    <!-- <div class="drop">
+                        <section>
+                            <a href="asd"></a>
+                            <a href="qwer"></a>
+                        </section>
+                    </div> -->
+                    <div class="drop">
+                        <div>
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button type="button" onclick="EmployeeReg()">Employee Registration</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button type="button" onclick="EmployeeLogin()">Employee Login</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button type="button" onclick="Manager()">Manager Login</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button type="button" onclick="Leader()">Leader Login</button>
+                        </div>
+                    </div>
+    </body>
+</html>
